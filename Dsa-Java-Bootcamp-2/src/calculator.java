@@ -4,7 +4,6 @@ public class calculator {
     public static void main(String[] args) {
         int ans = 0;
         Scanner input = new Scanner(System.in);
-
         while (true) {
             System.out.println("Enter the operator or press x to exit: ");
             char op = input.next().trim().charAt(0);
